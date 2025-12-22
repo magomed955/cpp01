@@ -6,7 +6,7 @@
 /*   By: mmutsulk <mmutsulk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/19 16:48:06 by mmutsulk          #+#    #+#             */
-/*   Updated: 2025/12/22 14:21:24 by mmutsulk         ###   ########.fr       */
+/*   Updated: 2025/12/22 15:53:45 by mmutsulk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ private:
 
 public:
     void complain(std::string level);
-    void filter(std::string level); // fonction pour filtrer les messages
+    void filter(std::string level);
 };
 
 #endif
